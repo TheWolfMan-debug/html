@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孙悟空特效</title>
+    <style>
+        .outer{
+            width: 85px;
+            height: 123px;
+            margin:50px auto;
+            background-color: aqua;
+            background-image: url(./小米商城图片/孙悟空.png);
+            background-size: 1250px auto;
+            /* background-position: -1155px -265px; */
+            background-repeat: no-repeat;
+            animation: action01 2s steps(13) infinite;
+        }
+        @keyframes action01{
+            from{
+            background-position: -17px -265px;
+            }
+            to{
+            background-position: -1155px -265px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="outer"></div>
+</body>
+</html>

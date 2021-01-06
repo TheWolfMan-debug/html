@@ -1,0 +1,55 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.back{
+    margin: 50px auto;
+    height: 58px;
+    width: 1000px;
+    background-color:#E8E7E3;
+}
+
+.back ul{
+    list-style: none;
+}
+
+.back ul li{
+    float: left;
+}
+
+.back .content li{
+    display: block;
+    padding: 0px 28px;
+
+}
+
+.back .content li:hover{
+    background-color: #900b09;
+}
+
+.back .content a{
+    text-decoration: none;
+    line-height: 58px;
+    color: black;
+    
+}
+
+.back .content a:hover{
+    color: blueviolet;
+
+}
+
+.back .content a:hover{
+
+    color: white;
+
+}
+
+.back .content a span{
+
+    padding:0px 12px
+}

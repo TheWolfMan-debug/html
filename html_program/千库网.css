@@ -1,0 +1,216 @@
+
+/*清除默认样式*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*解决高度塌陷问题*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*part1 第一部分样式*/
+.part1{
+    width: 1520px;
+    height: 1632px;
+    margin: 0px auto;
+    padding: 64px 200px;
+    background-image: url(./qianku/assets/img/bg/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+}
+
+
+.part1 .outer1{
+    width: 1530px;
+    height: 1501px;
+}
+.part1 .outer1 .h1{
+    width: 160px;
+    height: 50px;
+    background-image: url(./qianku/assets/img/logo1.png);
+    margin-left: 115px;
+    float: left;
+    
+}
+
+.part1 .outer1 ul{
+    margin-left: 350px;
+    display: block;
+    list-style: none;
+    float: left;
+    height: 66.67px;
+    font-size: 25px;
+
+}
+
+.part1 .outer1 ul li{
+
+    margin-right: 85px;
+    display: block;
+    float: left;
+    line-height: 66.67px;
+    text-align: center;
+}
+
+
+.part1 .outer1 ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.part1 .outer1 ul li a:hover{
+    color: rgb(160, 158, 158);
+    text-decoration: underline;
+}
+
+.part1 .outer1 ul li button{
+    font-size: 25px;
+    display: block;
+    height: 65px;
+    width: 200px;
+    background-color: #3cb8ff;
+    margin-left: 100px;
+    border: none;
+    border-radius: 5%;
+    color: white;
+}
+
+.part1 .outer1 ul li button:hover{
+    background-color: #47a9e2;
+    color: rgb(196, 196, 196);
+
+}
+
+.part1 .outer1 ul li button:active{
+    background-color: #3889b8;
+}
+
+.part1 .outer1 .title{
+    font-size: 50px;    
+    color: white;
+    margin: 235px 0px 165px 175px;
+}
+
+.part1 .outer1 .content{
+    display: block;
+    font-size: 32px;   
+    line-height: 50px; 
+    color: white;
+    width: 643px;
+    height: 152px;
+    margin-left:175px;
+}
+
+.part1 .outer1 .button2{
+    display: block;
+    border: none;
+    width: 224px;
+    height: 72px;
+    margin-left: 175px;
+    background-image: url(./qianku/assets/img/bg/data_bg.png);
+    background-size: 224px 72px;
+    border-radius: 6%;
+    font-size: 32px;
+    margin-top: 90px;
+    margin-bottom:225px ;
+}
+
+
+
+.part1 .outer1 .button2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.part1 .outer1 .button2 a:hover{
+    color: rgb(189, 188, 188);
+}
+
+.part1 .outer1 .box1,
+.part1 .outer1 .box2,
+.part1 .outer1 .box3{
+    float: left;
+    width: 480px;
+    height: 554px;
+    background-color: white;
+    margin-right: 45px;
+    border-radius: 5%;
+    box-shadow:0px 0px 10px rgb(197, 197, 197) ;
+}
+
+.part1 .outer1 .box3{
+    margin: 0px;
+}
+
+
+.part1 .outer1 .box1 .picture1{
+    background-image: url("./qianku/assets/img/icon/big_icon1.png");
+
+}
+
+.part1 .outer1 .box2 .picture2{
+    background-image: url("./qianku/assets/img/icon/big_icon2.png");
+
+}
+
+.part1 .outer1 .box3 .picture3{
+    background-image: url("./qianku/assets/img/icon/big_icon3.png");
+}
+
+.part1 .outer1 .box1 .picture1,
+.part1 .outer1 .box2 .picture2,
+.part1 .outer1 .box3 .picture3{
+    margin: 100px auto;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 170px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.part1 .outer1 .box1 .small_title1,
+.part1 .outer1 .box2 .small_title2,
+.part1 .outer1 .box3 .small_title3{
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.part1 .outer1 .box1 .main_content1,
+.part1 .outer1 .box2 .main_content2,
+.part1 .outer1 .box3 .main_content3{
+    margin: 0px auto;
+    display: block;
+    width: 345px;
+    height: 400px;
+    color: black; 
+    font-size: 26px;
+    line-height: 40px;
+}
+
+/*part2 第二部分样式*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

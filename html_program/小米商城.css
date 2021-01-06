@@ -1,0 +1,1127 @@
+/*清除默认样式*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*解决高度塌陷问题*/
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.yellback{
+    display: block;
+    width: 100%px;
+    height: 120px;
+    background-color: rgb(255,182,25);    
+    background-size: auto;
+}
+
+.yellback a{
+    text-decoration: none;
+    color: rgb(255,254,254);
+    line-height: 120px;
+}
+
+.yellback a .inform{
+    margin-left: 250px;
+    font-size: 55px;
+}
+
+.firstline{
+    display: block;
+    height:40px ;
+    min-width: 100%px;
+    background-color:rgb(51,51,51);
+}
+
+.firstline ul:first-child{
+    margin-left: 20px;
+}
+
+.firstline ul li:nth-of-type(13){
+    margin-left: 245px;
+}
+
+.firstline ul li{
+    display: block;
+    float: left;
+    list-style: none;
+}
+
+.firstline ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(176,176,176);
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.firstline ul li a:hover{
+    color: white;
+}
+
+.firstline ul li .lastinform{
+    display: block; 
+    height: 40px;
+    width:120px;
+    background-color: rgb(66,66,66);
+    margin-left: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.firstline ul li .lastinform:hover{
+    color: red;
+    background-color: white;
+}
+
+.firstline ul li a span{
+    margin:0px 6px;
+    color: rgb(68, 58, 58);
+ } 
+
+.firstline ul li a .iconfont{
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.firstline ul li .lastinform .popup2{
+    position: absolute;
+    height: 0px;
+    width: 300px;
+    transition: height 1.5s;
+    left: -180px;
+    box-shadow: 0px 3px 5px rgb(65, 47, 47,.2);
+    background-color: white;
+    overflow: hidden;
+}
+
+.firstline ul li .lastinform:hover .popup2{
+    height:100px;
+    background-color: white;
+} 
+
+.firstline ul li .lastinform .popup2 .ad1{
+    text-align: center;
+    line-height: 100px;
+    color:black;
+}
+
+.firstline ul li .lastinform:hover .ad1{
+    display: inline-block;
+}
+
+.firstline ul li .par1{
+    position: relative;
+}
+
+.firstline ul li .par1 .popup1{
+    height: 0px;
+    width: 190px;
+    background-image: url(./小米商城图片/收款码1.png);
+    background-size: 190px ;
+    background-color: black;
+    position: absolute;
+    left: -65px;
+    top: 40px;
+    z-index: 9999;
+    transition: height 1.5s;
+} 
+
+.firstline ul li .par1:hover .popup1{
+    height: 200px;
+}
+
+.firstline ul li .par1 .ang{
+    width: 0px;
+    height: 0px;
+    border: 10px green solid ;
+    border-top: none;
+    border-color: transparent transparent rgb(34,171,57) transparent;
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    display: none;
+    z-index: 9999;
+}
+
+.firstline ul li .par1:hover .ang{
+    display: block;
+} 
+
+/*第二个导航条*/
+
+.secondline{
+    height: 100px;
+    width: 1280px;
+    float: left;
+}
+
+.secondline .pic1{
+    height: 50px;
+    width: 50px;
+    background-image: url(./小米商城图片/小米.png);
+    background-size: 101px;
+    background-repeat: no-repeat;
+    background-position: -51px 0px;
+    margin: 25px 60px 0px 20px;
+    float: left;
+    transition: 0.2s;
+}
+
+.secondline .pic1:hover{
+    background-position: 0px 0px;
+}
+
+.secondline ul{
+    float: left;
+    position: relative;
+}
+
+.secondline ul li{
+    line-height: 100px;
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.secondline ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.secondline ul li a:hover{
+    color:rgb(255,103,132) ;
+}
+
+.secondline ul li .leftcap ul{
+    position: relative;
+}
+
+.secondline ul li .leftcap ul li .b1,
+.secondline ul li .leftcap ul li .b2,
+.secondline ul li .leftcap ul li .b3,
+.secondline ul li .leftcap ul li .b4,
+.secondline ul li .leftcap ul li .b5,
+.secondline ul li .leftcap ul li .b6,
+.secondline ul li .leftcap ul li .b7,
+.secondline ul li .leftcap ul li .b8,
+.secondline ul li .leftcap ul li .b9,
+.secondline ul li .leftcap ul li .b10{
+    width: 535px;
+    width: 0px;
+    height: 457px;
+    background-color: blueviolet;
+    position: absolute;
+    top: -17px;
+    left: 204px;
+    z-index: 9;
+    background-image: url(./小米商城图片/中间动态条.png);
+    background-size: 555px 460px;
+    background-position: -5px -2px;
+    box-shadow: 5px 0px 10px rgba(107, 107, 107, 0.3);
+    transition: width 1s;
+}
+
+.secondline ul li .leftcap ul li a:hover .b1,
+.secondline ul li .leftcap ul li a:hover .b2,
+.secondline ul li .leftcap ul li a:hover .b3,
+.secondline ul li .leftcap ul li a:hover .b4,
+.secondline ul li .leftcap ul li a:hover .b5,
+.secondline ul li .leftcap ul li a:hover .b6,
+.secondline ul li .leftcap ul li a:hover .b7,
+.secondline ul li .leftcap ul li a:hover .b8,
+.secondline ul li .leftcap ul li a:hover .b9,
+.secondline ul li .leftcap ul li a:hover .b10{
+    width: 535px;
+}
+
+.secondline ul li .a1 .box1,
+.secondline ul li .a2 .box2,
+.secondline ul li .a3 .box3,
+.secondline ul li .a4 .box4,
+.secondline ul li .a5 .box5,
+.secondline ul li .a6 .box6,
+.secondline ul li .a7 .box7,
+.secondline ul li .a8 .box8,
+.secondline ul li .a9 .box9{
+    position: absolute;
+    height: 0px;
+    width: 1280px;
+    top: 100px;
+    left: -128px;
+    z-index: 99;
+    background-image: url(./小米商城图片/动态导航条.png);
+    background-size: 100%px 245px;
+    background-position: 0px -10px;
+    background-repeat: no-repeat;
+    transition: height 1.5s;
+    box-shadow: 0px 3px 5px rgb(65, 47, 47,5);
+}
+
+.secondline ul li a .box1{
+    background-image: url(./小米商城图片/动态导航条.png);
+}
+
+.secondline ul li .a2 .box2{
+    background-position: 0px -14px;
+    background-image: url(./小米商城图片/导航条长条02.png);
+    background-size: 1280px 250px;
+}
+
+.secondline ul li a:hover .box1{
+    height: 230px;
+}
+
+.secondline ul li a:hover .box2{
+    height: 230px;
+}
+
+.secondline ul li a:hover .box3{
+    height: 230px;
+}
+
+.secondline ul li a:hover .box4{
+    height: 230px;
+}
+
+.secondline ul li a:hover .box5{
+    height: 230px;
+}
+
+.secondline ul li a:hover .box6{
+    height: 230px;
+}
+
+.secondline ul li a:hover .box7{
+    height: 230px;
+}
+
+.secondline ul li a:hover .box8{
+    height: 230px;
+}
+
+.secondline ul li a:hover .box9{
+    height: 230px;
+}
+
+
+.secondline .search{
+    float: left;
+    height: 75px;
+    width: 300px;
+    margin-left:76px;
+}
+
+.secondline .search .search-inp,
+.secondline .search .search-bu{
+    border: none;
+    float: left;
+    border: 1px solid rgb(224,224,224);
+    border-right: 0.5px solid rgb(224,224,224);
+    margin-top: 25px;
+}
+
+.secondline .search .search-inp{
+    height: 50px;
+    width: 214px;
+    padding: 0px 15px;
+}
+
+.secondline .search .search-inp:hover,
+.secondline .search .search-bu:hover{
+    border-color: rgb(176,176,176);
+}
+
+/* .secondline .search .search-inp:hover .search-bu{
+    border-color: rgb(176,176,176);
+} */
+
+.secondline .search .search-bu{
+    width: 54px;
+    display: block;
+    height: 52px;
+    border: none;
+    border: 1px solid rgb(224,224,224);
+    background-color: white;
+    border-left: 0.5px solid rgb(224,224,224);
+}
+
+.secondline .search .search-bu:hover{
+    background-color: rgb(255,103,0);
+    border-color: rgb(176,176,176);
+}
+
+.secondline .search .search-bu i{
+    font-size: 20px;
+    color: rgb(97,97,97);
+}
+
+/*设置全部商品分类的隐藏导航条*/
+
+.secondline .firstli{
+    display: block;
+    position: relative;
+}
+
+.secondline .firstli .leftcap{
+    width: 204px;
+    height: 440px;
+    display: block;
+    position: absolute;
+    background-color: rgb(165,163,163);
+    left: -110px;
+    padding-top: 17px;
+}
+
+.secondline .firstli .leftcap ul{
+    width: 204px;
+    height: 440px;
+}
+
+.secondline .firstli .leftcap ul li{
+    line-height: 43px;
+    display: block;
+    float: none;
+    font-size: 15px;
+    width: 204px;
+}
+
+.secondline .firstli .leftcap ul li i{
+    float:right;
+    margin-right: 20px;
+}
+
+.secondline .firstli .leftcap ul li a{
+    display: block;
+    color: white;
+    padding-left: 30px;
+}
+
+.secondline .firstli .leftcap ul a:hover{
+    background-color: rgb(255,103,0);
+}
+
+/*设置第二个导航栏动态效果*/
+
+
+/*图片广告*/
+
+.adp{
+    height: 457px;
+    width: 1016px;
+    background-color:rgb(119, 71, 71) ;
+    margin-left: 224px;
+    margin-top: 100px;
+    background-color: teal;
+    background-image: url(./小米商城图片/音箱.png);
+    background-size: 1067px 457px;
+    position: relative;
+}
+
+
+.adp .firstp,
+.adp .secondp{
+    display: block;
+    position: absolute;
+    font-size: 60px;
+    top: 225px;
+    left: 0px;
+    color: rgba(75, 114, 110, 0.7);
+}
+
+.adp .secondp{
+    left: 960px;
+}
+
+.adp .firstp:hover,
+.adp .secondp:hover{
+    color:rgb(245,249,248);
+}
+
+.adp .dots{
+    list-style: none;
+    float: right;
+
+}
+
+
+.adp .dots li{
+    float: left;
+    height: 8px;
+    width:8px;
+    border-radius: 50%;
+    background-color: rgb(114, 109, 109);
+    margin-right:10px;
+    margin-top: 440px;
+}
+
+.adp .dots li:hover{
+    background-color: white;
+}
+
+.adp .dots li:nth-of-type(5){
+    margin-right: 45px;
+}
+
+/*右侧导航条*/
+.rightcap{
+    width: 30px;
+    height: 180px;
+    background-color: white;
+    position: fixed;
+    top: 300px;
+    right:0px;
+    z-index: 9999;
+}
+
+.rightcap ul{
+    margin:0px auto;
+}
+
+.rightcap ul li{
+    list-style: none;
+}
+
+.rightcap ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(153,153,153);
+    padding:5px;
+}
+
+.rightcap ul li a:nth-of-type(1){
+    margin-top: 3px;
+}
+
+
+.rightcap ul li a i{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rightcap ul li a:hover i{
+    color: rgb(255,103,0);
+}
+
+
+/*第一个小方块*/
+
+.out{
+    width: 204px;
+    height: 170px;
+    margin-left: 20px;
+    margin-top: 14px;
+    float: left;
+}
+
+.out ul li{
+    display: block;
+    list-style: none;
+    border-right: 1px solid rgb(129, 126, 125);
+    border-bottom:1px solid rgb(129, 126, 125);
+}
+
+.out .fline li:nth-of-type(3),
+.out .sline li:nth-of-type(3){
+    border-right: none;
+}
+
+.out .sline li{
+    border-bottom: none;
+}
+
+.out ul li a{
+    text-decoration: none;
+    color: rgb(207,204,202);
+}
+
+.out ul li a:hover{
+    color: white;
+}
+
+.out li{
+    float: left;
+}
+
+.out  a{
+    display: block;
+    height: 59.5px;
+    width: 67px;
+    background-color: rgb(95,87,80);
+    padding-top: 25px;
+}
+
+.out  a i,
+.out  a span{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.out  a span{
+    font-size: 12px;
+}
+
+.out .sline{
+    height: 85px;
+    width: 204px;
+}
+
+
+/*下面三个goods*/
+
+.outback{
+    height: 170px;
+    width:1016px;
+    float: left;
+    margin-top: 14px;
+    position: absolute;
+    left: 223px;
+    top: 717px;
+}
+
+.outback a{
+    display: block;
+    width: 318px;
+    height: 170px;
+    float: left;
+    margin-left: 20.6666px;
+}
+
+.outback .good1{
+    background-image: url(./小米商城图片/三个商品1.png);
+    background-size: 318px 170px;
+}
+
+.outback .good2{
+    background-image: url(./小米商城图片/三个商品2.png);
+    background-size: 318px 170px;
+}
+
+.outback .good3{
+    background-image: url(./小米商城图片/三个商品3.png);
+    background-size: 318px 170px;
+}
+
+
+/*下面的滚动栏*/
+
+.bg{
+    height: 3000px;
+    width: 100%px;
+    background-color:rgb(245,245,245);
+    margin-top: 220px;
+}
+
+.outer01{
+    width: 100%px;
+    position: relative;
+}
+
+.outer01 .ti{
+    display: block;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.outer01 i{
+    font-size: 40px;
+    position: absolute;
+    font-size: 30px;
+    border: 1px solid rgb(176,176,176);
+    color: rgb(176,176,176);
+}
+
+.outer01 i:hover{
+    color: red;
+}
+
+.outer01 .rb{
+    left: 1206px;
+    top: 15px;  
+}
+
+.outer01 .lb{
+    left: 1176px;
+    top: 15px;
+}
+
+.outer01 .fleft{
+    height: 330px;
+    width: 227px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float: left;
+    background-image: url(./小米商城图片/导航条长条.png);
+    background-size: auto 330px;
+    background-repeat: no-repeat;
+    background-position: 0px -0.323px;
+}
+
+.outer01 .fright li{
+    list-style: none;
+}
+
+.outer01 .fright a{
+    display: block;
+    height: 330px;
+    width: 230px;
+    float: left;
+    margin-left: 17.222px;
+    margin-top: 15px;
+    background-size: auto 330px;
+    background-repeat: no-repeat;
+    background-position: 0px -0.323px;
+    background-image: url(./小米商城图片/导航条长条.png);
+}
+
+.outer01 .fright .box1 a{
+    animation: character01 alternate 20s 2s infinite;
+}
+
+.outer01 .fright .box2 a{
+    animation: character01 alternate 20s 2s infinite;
+}
+
+.outer01 .fright .box3 a{
+    animation: character01 alternate 20s 2s infinite;
+}
+
+.outer01 .fright .box4 a{
+    animation: character01 alternate 20s 2s infinite;
+}
+
+.outer01 .bottp{
+    width: 1220px;
+    height: 120px;
+    float: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    background-image: url(./小米商城图片/长条广告01.png);
+    background-size: auto 140px;
+    background-repeat: no-repeat;
+    background-position: -10px -10px;
+}
+
+@keyframes character01{
+    0%{
+    background-position: -238px -0.323px;
+    }
+    25%{
+    background-position: -480px -0.323px;
+    }
+    75%{
+    background-position: -720px -0.323px;
+    }
+    100%{
+    background-position: -960px -0.323px;    
+    }
+}
+
+/*手机*/
+
+.outer02{
+    width: 1280px;
+    background-color: rgb(245,245,245);
+}
+
+.bg .outer02 .ti{
+    display: block;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.bg .outer02 .check{
+    float: right;
+    display: block;
+    font-size: 16px;
+    margin-right: 40px;
+    margin-top: -25px;
+}
+
+.bg .outer02 .check i{
+    text-align: center;
+    font-size: 16px;
+}
+
+.bg .outer02 .leftbox01{
+    height: 685px;
+    width: 230px;
+    background-color: wheat;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.bg .outer02 .leftbox01{
+    overflow: hidden;
+}
+
+.bg .outer02 .leftbox01:hover{
+    box-shadow: 0px 5px 20px rgba(65, 64, 64, 0.5);
+}
+
+.bg .outer02 .leftbox01 a{
+    display: block;
+    height: 685px;
+    width: 230px;
+    background-image: url(./小米商城图片/小米mix\ alpha.png);
+    background-size: 250px 700px;
+    background-position: -10px -10px;
+    transition: 0.3s;
+}
+
+.bg .outer02 .leftbox01 a:hover{
+    transform-style: preserve-3d;
+    transform: scale(1.04);
+}
+
+.bg .outer02 .topul{
+    height: 335px;
+    width: 1030px;
+    float: left;
+    margin-top: 20px;
+}
+
+.bg .outer02 li{
+    list-style: none ;
+    width: 240px;
+    height: 335px;
+    float: left;
+    margin-left: 7.555px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.bg .outer02 li a{
+    transition: 0.3s;
+}
+
+.bg .outer02 li a:hover{
+    transform-style: preserve-3d;
+    transform: scale(1.03);
+}
+
+.bg .outer02 li:hover{
+    box-shadow: 0px 5px 20px rgba(75, 75, 75, 0.3);
+}
+
+.bg .outer02 .topul li:nth-child(1) a{
+    display: block;
+    width: 240px;
+    height: 335px;
+    background-image: url(./小米商城图片/上部广告01.png);
+    background-position: -20px 0px;
+    background-size: 1070px 350px;
+}
+
+.bg .outer02 .topul li:nth-child(2) a{
+    display: block;
+    width: 240px;
+    height: 335px;
+    background-image: url(./小米商城图片/上部广告01.png);
+    background-position: -285px 0px;
+    background-size: 1070px 350px;
+}
+
+.bg .outer02 .topul li:nth-child(3) a{
+    display: block;
+    width: 240px;
+    height: 335px;
+    background-image: url(./小米商城图片/上部广告01.png);
+    background-position: -550px 0px;
+    background-size: 1070px 350px;
+}
+
+.bg .outer02 .topul li:nth-child(4) a{
+    display: block;
+    width: 240px;
+    height: 335px;
+    background-image: url(./小米商城图片/上部广告01.png);
+    background-position: -810px 0px;
+    background-size: 1070px 350px;
+}
+
+.bg .outer02 .bottomul li:nth-child(1) a{
+    display: block;
+    width: 240px;
+    height: 335px;
+    background-image: url(./小米商城图片/下部导航条01.png);
+    background-position: -10px -10px;
+    background-size: 1070px 350px;
+}
+
+.bg .outer02 .bottomul li:nth-child(2) a{
+    display: block;
+    width: 240px;
+    height: 335px;
+    background-image: url(./小米商城图片/下部导航条01.png);
+    background-position: -280px -10px;
+    background-size: 1070px 350px;
+}
+
+.bg .outer02 .bottomul li:nth-child(3) a{
+    display: block;
+    width: 240px;
+    height: 335px;
+    background-image: url(./小米商城图片/下部导航条01.png);
+    background-position: -550px -10px;
+    background-size: 1070px 350px;
+}
+
+.bg .outer02 .bottomul li:nth-child(4) a{
+    display: block;
+    width: 240px;
+    height: 335px;
+    background-image: url(./小米商城图片/下部导航条01.png);
+    background-position: -810px -10px;
+    background-size: 1070px 350px;
+}
+
+.bg .outer02 .bottomul{
+    height: 335px;
+    width: 1030px;
+    float: left;
+    margin-top: 15px;
+}
+
+.bg .outer02 .bottomlong a{
+    width: 1220px;
+    height: 120px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+    background-image: url(./小米商城图片/下部长广告01.png);
+    background-size: 1230px 140px;
+    background-repeat: no-repeat;
+    background-position: -5px -10px;
+}
+
+/*outer03*/
+.bg .outer03{
+    width: 1280px;
+    background-color: rgb(245,245,245);
+}
+
+.bg .outer03 p{
+    display: block;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.bg .outer03 .fon{
+    margin-right: 42px;
+    margin-top: -30px;
+}
+
+.bg .outer03 .fon li{
+    float: right;
+    list-style: none;
+}
+
+.bg .outer03 .fon li:last-child{
+    margin-right: 20px;
+}
+
+.bg .outer03 .fon li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.bg .outer03 .fon li a:hover{
+    color: rgba(254,103,0);
+    text-decoration: underline;
+}
+
+.bg .outer03 .topp{
+    width: 1280px;
+    height: 335px;
+    margin-top: 45px;
+}
+
+.bg .outer03 .topp li a,
+.bg .outer03 .bottomp li a{
+    background-image: url(./小米商城图片/广告01.png);
+}
+
+.bg .outer03 .topp li:nth-child(1) a{
+    background-size: 1270px 700px;
+    background-repeat: no-repeat;
+    background-position: -12px -10px;
+}
+
+.bg .outer03 .bottomp li:nth-child(1) a{
+    background-size: 1280px 710px;
+    background-repeat: no-repeat;
+    background-position: -12px -365px;
+}
+
+.bg .outer03 .topp li:nth-child(2) a{
+    background-size: 1270px 710px;
+    background-repeat: no-repeat;
+    background-position: -263px -12px;
+}
+
+.bg .outer03 .bottomp li:nth-child(2) a{
+    background-size: 1280px 710px;
+    background-repeat: no-repeat;
+    background-position: -265px -365px;
+}
+
+.bg .outer03 .topp li:nth-child(3) a{
+    background-size: 1270px 710px;
+    background-repeat: no-repeat;
+    background-position: -516px -12px;
+}
+
+.bg .outer03 .bottomp li:nth-child(3) a{
+    background-size: 1280px 710px;
+    background-repeat: no-repeat;
+    background-position: -520px -365px;
+}
+
+.bg .outer03 .topp li:nth-child(4) a{
+    background-size: 1270px 710px;
+    background-repeat: no-repeat;
+    background-position: -770px -12px;
+}
+
+.bg .outer03 .bottomp li:nth-child(4) a{
+    background-size: 1280px 710px;
+    background-repeat: no-repeat;
+    background-position: -780px -365px;
+}
+
+.bg .outer03 .topp li:nth-child(5) a{
+    background-size: 1270px 710px;
+    background-repeat: no-repeat;
+    background-position: -1030px -12px;
+}
+
+.bg .outer03 .bottomp li:nth-child(5) .top01{
+    background-size: 1280px 710px;
+    background-repeat: no-repeat;
+    background-position: -1035px -365px;
+}
+
+.bg .outer03 .bottomp li:nth-child(5) .bottom01{
+    background-size: 1280px 710px;
+    background-repeat: no-repeat;
+    background-position: -1035px -548px;
+}
+
+.bg .outer03 .bottomp{
+    width: 1280px;
+    height: 335px;
+    margin-top: 15px;
+}
+
+.bg .outer03 .topp li,
+.bg .outer03 .bottomp li{
+    list-style: none;
+}
+
+.bg .outer03 .topp li a,
+.bg .outer03 .bottomp li .b1,
+.bg .outer03 .bottomp li .b2,
+.bg .outer03 .bottomp li .b3,
+.bg .outer03 .bottomp li .b4{
+    width: 240px;
+    height: 335px;
+    float: left;
+}
+
+.bg .outer03 .bottomp li:last-child{
+    width: 236px;
+    height: 335px;
+    float: left;
+    margin-left: 7.3333px;
+    overflow: hidden;
+}
+
+.bg .outer03 .bottomp li .top01,
+.bg .outer03 .bottomp li .bottom01{
+    display: block;
+    width: 240px;
+    height: 150px;
+}
+
+.bg .outer03 .bottomp li .bottom01{
+    margin-top: 35px;
+}
+
+.bg .outer03 .topp li:first-child,
+.bg .outer03 .bottomp li:first-child{
+    margin-left: 15px;
+}
+
+.bg .outer03 .longad a{
+    width: 1230px;
+    height: 120px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 16px;
+    background-image: url(./小米商城图片/下部长广告01.png);
+    background-size: 1230px 140px;
+    background-repeat: no-repeat;
+    background-position: 0px -10px;
+    background-color: darkblue;
+}
+
+.bg .outer03 .topp li,
+.bg .outer03 .bottomp .l1,
+.bg .outer03 .bottomp .l2,
+.bg .outer03 .bottomp .l3,
+.bg .outer03 .bottomp .l4{
+    width: 240px;
+    height: 335px;
+    float: left;
+    margin-left: 4.8px;
+    /* background-color: black; */
+    background-color: coral;
+    overflow: hidden;
+    margin-left: 7.3333px;
+}
+
+.bg .outer03 li a{
+    transition: 0.3s;
+}
+
+.bg .outer03 li a:hover{
+    transform-style: preserve-3d;
+    transform: scale(1.03);
+}
+
+.bg .outer03 .topp li,
+.bg .outer03 .bottomp li{
+    transition: 0.3s;
+}
+
+.bg .outer03 .topp li:hover,
+.bg .outer03 .bottomp .l1:hover,
+.bg .outer03 .bottomp .l2:hover,
+.bg .outer03 .bottomp .l3:hover,
+.bg .outer03 .bottomp .l4:hover
+{
+    box-shadow: 0px 5px 20px rgba(75, 75, 75, 0.3);
+}
+
+.bg .outer03 .bottomp .box1:hover,
+.bg .outer03 .bottomp .box2:hover{
+    box-shadow: 0px 5px 20px rgba(75, 75, 75, 0.3);
+}
+
+
+
+
+
+
+
